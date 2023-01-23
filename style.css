@@ -10,12 +10,17 @@ body {
 }
 
 video {
-  position: absolute;
   height: 100vh;
   min-width: 100%;
+  opacity: .25;
+}
+
+.video-container {
+  position: absolute;
   top: 0;
-  opacity: .15;
-  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
 }
 
 .another-container {
