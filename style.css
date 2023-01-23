@@ -12,7 +12,7 @@ body {
 video {
   height: 100vh;
   min-width: 100%;
-  opacity: .25;
+  opacity: .35;
 }
 
 .video-container {
