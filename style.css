@@ -191,9 +191,19 @@ h1 {
 }
 
 @media only screen and (max-width: 650px) {
+  .title-container {
+    margin:0;
+  }
+  .date-border {
+    margin: 0;
+  }
+  .date-container {
+    margin: 0;
+  }
   .header-text {
     line-height: 1.2;
     font-size: 35px;
+    margin-left: 0px;
   }
   .intro-text {
     margin-top: 10px;
