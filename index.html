@@ -42,11 +42,8 @@
     </div>
 
     <script>
-      console.log(window.location.host);
-      if (window.location.host.includes('http://www.nsvsongfestival.nl')) {
-          window.location.protocol = 'https:';
-          window.location.href = "https://www.nsvsongfestival.nl/";
-
+      if (location.protocol !== "https:") {
+        location.protocol = "https:";
       }
     </script>
 </body>
