@@ -205,6 +205,10 @@ h1 {
   .date-container {
     margin: 0;
   }
+  small {
+    margin-top: 10px;
+    display: block;
+  }
   .header-text {
     line-height: 1.2;
     font-size: 35px;
