@@ -1,51 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigators Songfestival</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigators Songfestival</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
 <body>
-    <div class="container">
-      <div class="video-container">
-        <video src="assets/test.mp4" loop autoplay muted playsinline></video>
-      </div>
-
-      <div class="another-container">
-        <header>
-          <div class="ticket-container">
-            <div class="info-container">
-              <div class="date-container">
-                <div class="date-border">
-                  <h1>30</h1>
-                  <hr>
-                  <p>MAART</p>
-                  <p>2023</p>
-                </div>
-              </div>
-              <div class="title-container">
-                <p class="intro-text">NIJMEGEN PRESENTEERT HET</p>
-                <h1 class="header-text">NSV Songfestival 2023<br>Das 'VOcaal</h1>
-                <a class="button" href="https://widget.yourticketprovider.nl/?cid=2222700&productid=56602&_ga=2.251423809.694959784.1674490449-1179402066.1669720982#/tickets/56602" target="_blank">Koop tickets</a>
-                <small>Melkweg Amsterdam • Deuren open 19u • Start 20u</small>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <div class="providers">
-          <p class="about-providers">Dit evenement wordt mede mogelijk gemaakt door</p>
-          <a href="https://blive.stream" target="_blank"><img src="assets/blive_logo_transparent.png"></a>
-          <a href="https://blive.stream" target="_blank"><img src="assets/blive_logo_transparent.png"></a>
-        </div>
-      </div>
-
+  <div class="container">
+    <div class="video-container">
+      <video src="assets/test.mp4" loop autoplay muted playsinline></video>
     </div>
 
-    <script>
-      if (location.protocol !== "https:") {
-        location.protocol = "https:";
-      }
-    </script>
+    <div class="another-container">
+      <div class="providers">
+        <p class="about-providers">Dit evenement wordt mede mogelijk gemaakt door</p>
+        <a href="https://blive.stream" target="_blank"><img src="assets/blive_logo_transparent.png"></a>
+        <a href="https://blive.stream" target="_blank"><img src="assets/blive_logo_transparent.png"></a>
+      </div>
+
+      <header>
+        <div class="ticket-container">
+          <div class="info-container">
+            <div class="date-container">
+              <div class="date-border">
+                <h1>30</h1>
+                <hr>
+                <p>MAART</p>
+                <p>2023</p>
+              </div>
+            </div>
+            <div class="title-container">
+              <p class="intro-text">NIJMEGEN PRESENTEERT HET</p>
+              <h1 class="header-text">NSV Songfestival 2023<br>Das 'VOcaal</h1>
+              <a class="button"
+                href="https://widget.yourticketprovider.nl/?cid=2222700&productid=56602&_ga=2.251423809.694959784.1674490449-1179402066.1669720982#/tickets/56602"
+                target="_blank">Koop tickets</a>
+              <!-- <a class="button"
+                href="https://widget.yourticketprovider.nl/?cid=2222700&productid=56602&_ga=2.251423809.694959784.1674490449-1179402066.1669720982#/tickets/56602"
+                target="_blank">Livestream</a> -->
+              <small>Melkweg Amsterdam • Deuren open 19u • Start 20u</small>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="faq-main-container">
+        <h1 class="faq-h1">Veel gestelde vragen!</h1>
+        <div class="faq-container">
+          <div class="faq active">
+            <h3 class="faq-title">
+              Ik heb mijn ticket gekocht, wat moet ik nu doen?
+            </h3>
+            <p class="faq-text">Bij het kopen van de tickets heb je van YourTicketProvider een e-mail in je inbox gekregen. Hierin staat een knop waar je op kan klikken om het ticket te personaliseren. Klik vervolgens op het ticket dat nog niet gepersonaliseerd is en vul hier je gegevens in. Zodra je op bevestigen klikt, krijg je een nieuwe e-mail op het ingevulde e-mailadres. In de bijlage van deze e-mail vind je het officiële toegangsbewijs voor het songfestival in de Melkweg. </p>
+            <button class="faq-toggle">
+              <i class="fas fa-angle-down"></i>
+            </button>
+          </div>
+
+          <div class="faq">
+            <h3 class="faq-title">
+              Wat als ik meerdere tickets heb gekocht?
+            </h3>
+            <p class="faq-text">Als je meerdere tickets hebt gekocht moet je deze allemaal los personaliseren. LET OP: Elk ticket is persoonsgebonden, dus zorg ervoor dat je hier de gegevens invult van de eigenaar van het ticket! Als koper van de tickets kan je ervoor kiezen om de URL te delen met de mensen voor wie je het ticket hebt gekocht, of om het allemaal zelf in te vullen. Bij de gegevens kan je het e-mailadres van de eigenaar van het ticket invullen, waardoor de eigenaar het toegangsbewijs in diens inbox krijgt. 
+            </p>
+            <button class="faq-toggle">
+              <i class="fas fa-angle-down"></i>
+            </button>
+          </div>
+
+          <div class="faq">
+            <h3 class="faq-title">
+              Wat moet ik laten zien bij binnenkomst?
+            </h3>
+            <p class="faq-text">Bij binnenkomst worden de tickets gescand. Zorg er dus voor dat je deze uitgeprint of duidelijk zichtbaar op je telefoon hebt. Ook wordt je identiteitsbewijs gecontroleerd, dus zorg ervoor dat je deze bij de hand hebt. Ook zal de security van de Melkweg hun controle uitvoeren. 
+            </p>
+            <button class="faq-toggle">
+              <i class="fas fa-angle-down"></i>
+            </button>
+          </div>
+
+          <div class="faq">
+            <h3 class="faq-title">
+              Ik ga niet meer, kan ik mijn niet-gepersonaliseerde ticket doorverkopen?
+            </h3>
+            <p class="faq-text">Je kan je gepersonaliseerde ticket op twee manieren doorverkopen. De eerste en makkelijkste manier is via Ticketswap. Hier kan je zelf je ticket aanbieden en kan een geïnteresseerde hem kopen. Het oude ticket wordt dan geannuleerd en de koper krijgt een compleet nieuw toegangsbewijs, met een nieuwe barcode. 
+              <br><br>
+              Wil je jouw ticket aan iemand die je kent doorverkopen? Dan kan dit door een mailtje te sturen naar <a href="mailto:navigators.songfestival@gmail.com">navigators.songfestival@gmail.com</a>. Zorg ervoor dat in dit mailtje de volgende gegevens staan: 
+              <br>- Referentienummer ticket
+              <br>- Barcode ticket
+              <br>- Voor- en achternaam originele eigenaar
+              <br>- E-mailadres originele eigenaar
+              <br>- Geboortedatum originele eigenaar
+              <br>- Voor- en achternaam nieuwe eigenaar
+              <br>- Geboortedatum nieuwe eigenaar
+              <br>- E-mailadres nieuwe eigenaar
+              <br><br>Deze gegevens zijn allemaal nodig om te zorgen dat wij het ticket goed wijzigen. LET OP: als je de gepersonaliseerde ticket zo doorverkoopt, wordt de barcode niet veranderd en is het originele ticket dus niet geannuleerd. Wel kan de barcode maar één keer gescand worden. Als bij de deur blijkt dat het ticket al gescand is, dan kan je dus niet meer naar binnen.
+              </p>
+            <button class="faq-toggle">
+              <i class="fas fa-angle-down"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    if (location.protocol !== "https:") {
+      location.protocol = "https:";
+    }
+
+    const buttons = document.querySelectorAll(".faq-toggle");
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () =>
+        button.parentElement.classList.toggle("active")
+      );
+    });
+  </script>
 </body>
+
 </html>
